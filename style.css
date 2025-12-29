@@ -163,17 +163,19 @@ body {
   }
 }
 
-/* Marca de agua del logo */
-.logo-watermark {
+.watermark-text {
   position: fixed;
-  right: 10px;
-  bottom: 6px;
-  width: 60px;        /* más pequeño */
-  opacity: 0.08;      /* más transparente */
-  filter: grayscale(1) brightness(1.2); /* más suave */
-  z-index: -1;        /* detrás del contenido */
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  font-family: system-ui, sans-serif;
+  letter-spacing: 0.18em;   /* letras separadas */
+  color: rgba(148, 163, 184, 0.45); /* gris clarito, tipo marca de agua */
   pointer-events: none;
+  user-select: none;
 }
+
 
 
 
