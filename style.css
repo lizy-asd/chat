@@ -165,9 +165,13 @@ body {
 /* Marca de agua del logo */
 .logo-watermark {
   position: fixed;
-  right: 14px;
-  bottom: 14px;
-  width: 90px;
-  opacity: 0.32;
+  right: 10px;
+  bottom: 6px;
+  width: 60px;        /* más pequeño */
+  opacity: 0.08;      /* más transparente */
+  filter: grayscale(1) brightness(1.2); /* más suave */
+  z-index: -1;        /* detrás del contenido */
   pointer-events: none;
 }
+
+
