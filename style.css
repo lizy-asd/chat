@@ -3,16 +3,17 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: system-ui, sans-serif;
-  background: linear-gradient(135deg, #eef2f7, #d9e2ec);
+  background: #e8ecf1;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 16px;
 }
+
+
 
 .page {
   text-align: center;
@@ -173,5 +174,6 @@ body {
   z-index: -1;        /* detrás del contenido */
   pointer-events: none;
 }
+
 
 
